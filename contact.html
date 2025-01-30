@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Harvest Table</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="main-nav">
+    <div class="nav-container">
+        <h1 class="logo">🍃 Harvest Table</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Seasonal Menu</a></li>
+            <li><a href="process.html">Our Process</a></li>
+            <li><a href="contact.html" class="active">Visit Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Contact Header -->
+<header class="contact-header">
+    <div class="header-content">
+        <h2>Connect With Our Farm Family</h2>
+        <p>We'd love to hear from you - questions, feedback, or farm tour requests</p>
+    </div>
+</header>
+
+<!-- Main Contact Content -->
+<main class="contact-container">
+    <!-- Contact Cards Grid -->
+    <section class="contact-grid">
+        <!-- Visit Us -->
+        <article class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Visit Our Farmhouse</h3>
+            <address>
+                123 Green Valley Road<br>
+                Sustainable City, CA 12345
+            </address>
+            <div class="map-embed">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50495.20678394026!2d-122.32701543841757!3d37.87185367020396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808579363a8549d3%3A0x94d15996a5a0b5ed!2sGolden%20Gate%20Park!5e0!3m2!1sen!2sus!4v1690835782437!5m2!1sen!2sus"
+                        width="100%"
+                        height="200"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="eager"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="hours">
+                <h4>Opening Hours</h4>
+                <p>Mon-Fri: 11am - 9pm<br>
+                    Sat-Sun: 10am - 10pm</p>
+            </div>
+        </article>
+
+        <!-- Contact Methods -->
+        <article class="contact-card">
+            <div class="contact-methods">
+                <div class="method">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>General Inquiries</h4>
+                        <p><a href="tel:555-123-4567">(555) 123-4567</a></p>
+                    </div>
+                </div>
+
+                <div class="method">
+                    <i class="fas fa-seedling"></i>
+                    <div>
+                        <h4>Farm Tours</h4>
+                        <p><a href="tel:555-123-4568">(555) 123-4568</a></p>
+                    </div>
+                </div>
+
+                <div class="method">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email Us</h4>
+                        <p><a href="mailto:hello@harvesttable.com">hello@harvesttable.com</a></p>
+                    </div>
+                </div>
+
+                <div class="method">
+                    <i class="fas fa-utensils"></i>
+                    <div>
+                        <h4>Wholesale Orders</h4>
+                        <p><a href="mailto:orders@harvesttable.com">orders@harvesttable.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+        <h3>Send Us a Message</h3>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required
+                       placeholder="Your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required
+                       placeholder="your.email@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Select a topic</option>
+                    <option value="reservation">Reservation Inquiry</option>
+                    <option value="farm-tour">Farm Tour Booking</option>
+                    <option value="feedback">Menu Feedback</option>
+                    <option value="wholesale">Wholesale Inquiry</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="6" required
+                          placeholder="Type your message here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Farmer's Market Section -->
+    <section class="market-section">
+        <h3>Visit Our Farmers Market</h3>
+        <div class="market-grid">
+            <div class="market-card">
+                <img src="https://i.pinimg.com/originals/e1/0d/28/e10d28882ddb6de6125ff3e61798507f.jpg"
+                     alt="Farmers Market Stand"
+                     loading="eager">
+                <div class="market-info">
+                    <h4>Weekly Market Schedule</h4>
+                    <ul class="market-schedule">
+                        <li>
+                            <i class="fas fa-calendar-day"></i>
+                            Wednesday: 9am - 2pm
+                        </li>
+                        <li>
+                            <i class="fas fa-calendar-day"></i>
+                            Saturday: 8am - 3pm
+                        </li>
+                    </ul>
+                    <address>
+                        Green Valley Farmers Market<br>
+                        456 Organic Lane, Sustainable City
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="main-footer">
+    <div class="footer-grid">
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="menu.html">Seasonal Menu</a></li>
+                <li><a href="process.html">Sustainability Report</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Our Growth</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fas fa-rss"></i> Blog</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 Harvest Table • Rooted in Sustainability</p>
+        <p>Certified Organic • Zero Waste Certified</p>
+    </div>
+</footer>
+</body>
+</html>
