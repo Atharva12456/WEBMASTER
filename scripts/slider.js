@@ -1,4 +1,4 @@
-// SLIDER CLASS (COMPLETE)
+
 class ImageSlider {
     constructor() {
         this.slides = document.querySelectorAll('.slide');
@@ -10,20 +10,20 @@ class ImageSlider {
     }
 
     init() {
-        // Auto-play
+        
         this.autoPlayInterval = setInterval(() => this.nextSlide(), 5000);
 
-        // Button controls
+        
         document.querySelector('.prev-slide').addEventListener('click', () => this.prevSlide());
         document.querySelector('.next-slide').addEventListener('click', () => this.nextSlide());
 
-        // Touch controls
+        
         this.slides.forEach(slide => {
             slide.addEventListener('touchstart', e => this.handleTouchStart(e));
             slide.addEventListener('touchend', e => this.handleTouchEnd(e));
         });
 
-        // Keyboard controls
+        
         document.addEventListener('keydown', e => {
             if (e.key === 'ArrowRight') this.nextSlide();
             if (e.key === 'ArrowLeft') this.prevSlide();
@@ -66,5 +66,5 @@ class ImageSlider {
     }
 }
 
-// Initialize slider
+
 document.addEventListener('DOMContentLoaded', () => new ImageSlider());
