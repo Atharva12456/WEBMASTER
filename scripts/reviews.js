@@ -1,4 +1,4 @@
-// REVIEW SYSTEM (COMPLETE)
+
 class ReviewSystem {
     constructor() {
         this.reviews = document.querySelectorAll('.review-card');
@@ -7,7 +7,7 @@ class ReviewSystem {
     }
 
     init() {
-        // Position profile pictures
+        
         this.reviews.forEach(review => {
             const img = review.querySelector('.review-pic');
             img.style.position = 'absolute';
@@ -19,7 +19,7 @@ class ReviewSystem {
             img.style.borderRadius = '50%';
         });
 
-        // Auto-cycle reviews
+        
         setInterval(() => this.nextReview(), 8000);
     }
 
