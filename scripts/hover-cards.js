@@ -1,4 +1,4 @@
-// hover-cards.js - Enhanced Version
+
 document.addEventListener('DOMContentLoaded', () => {
     const menuItems = document.querySelectorAll('.menu-item');
     let activeCard = null;
